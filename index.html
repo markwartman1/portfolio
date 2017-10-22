@@ -1,0 +1,170 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portfolio</title>
+
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300|Yellowtail|Source+Sans+Pro:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+  <header class="section_top" id="top">
+    <h1>Mark Wartman</h1>
+    <h2>software developer</h2>
+    <h2>web developer</h2>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- <main> -->
+  <!--******* about *******-->
+  <section class="section" id="about">
+    <div class="content-wrapper">
+      <h3>About Me</h3>
+      <div class="clearfix">
+        <img src="portfolioImages/hShot280h.jpg" id="pic" alt="_picture of me later">
+        <!-- https://i2.wp.com/codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png?ssl=1 -->
+        <div class="aside">
+          <p><strong>Hello!</strong> I'm a self-taught developer located in Kingwood, TX.</p>
+          <p>I'm currently studying front end development through <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a> and various channels on YouTube. I am in the market for a postion to continue enhancing my development skills.</p>
+          <p>Please take a look at my portfolio projects that I have completed in the process of aquiring
+            the front end developer certification at Free Code Camp.</p>
+        </div>
+        <!--//end aside-->
+      </div>
+      <!--//end clearfix-->
+      <p>I'm currently working with:</p>
+      <!-- Resize these into png's -->
+      <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/256px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="">
+      <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/128px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+      <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_jQuery.svg/256px-Logo_jQuery.svg.png" alt="">
+
+    </div>
+    <!--//end content-wrapper-->
+  </section>
+
+    <!--****** Portfollio ******-->
+  <section class="" id="portfolio">
+    <div class="content-wrapper">
+      <h3>Portfolio</h3>
+      <div class="gallery">
+        <div class="gallery-object">
+          <a href="https://codepen.io/MWdub/pen/VMdEdq" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/pomodoroClock.png" alt=""></a>
+            <p><strong>Pomodoro Clock</strong></p>
+            <a href="https://codepen.io/MWdub/full/VMdEdq"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MWdub/pen/VMdEdq"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
+            <p>The Pomodoro Clock is a time management application showcasing "iterative and incremental
+              software design"(<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">Wikipedia</a>).</p>
+        </div>
+
+        <hr>
+
+        <div class="gallery-object">
+          <a href="https://codepen.io/MWdub/full/KXermZ/" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/quoteGenerator.png" alt=""></a>
+            <p><strong>Quote Generator</strong></p>
+            <a href="https://codepen.io/MWdub/full/KXermZ/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MWdub/pen/KXermZ/" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
+            <p>A random quote generator using a JSON-encoded, third-party API.
+              The user can make requests for additional quotes by clicking the "Get Quote" button,
+              and the user may tweet out the quote to Twitter if desired.</p>
+        </div>
+
+        <hr>
+
+        <div class="gallery-object">
+          <a href="https://codepen.io/MWdub/full/VMLKXM/" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/twitchTv.png" alt=""></a>
+            <p><strong>TwitchTV Status Viewer</strong></p>
+            <a href="https://codepen.io/MWdub/full/VMLKXM/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MWdub/pen/VMLKXM/" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
+            <p>Twitch tv status viewer implemented by a JSON-encoded, Twitch API.
+              The API was used to generate a channel logo, channel name, and streaming status that
+              included a description if the channel was streaming. My solution to
+             this project was an iterative, multi-API call to input data which was ouput by embedding
+            html code within jQuery.</p>
+        </div>
+
+        <hr>
+
+        <div class="gallery-object">
+          <a href="https://codepen.io/MWdub/pen/NaObEV" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/simpleCalculator.png" alt=""></a>
+            <p><strong>Simple Calculator</strong></p>
+            <a href="https://codepen.io/MWdub/full/NaObEV/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MWdub/pen/NaObEV" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
+            <p>Building The Simple Calculator was an exercise of logic done in jQuery. The
+            calculator operates on immediate execution methodology, where chaining expression are
+          evaluated upon designation of second operator. Program code could be considerd verbosely commented; however,
+        I wanted to display documenting skill and communication ability.</p>
+        </div>
+
+        <hr>
+
+        <div class="gallery-object">
+          <a href="https://codepen.io/MWdub/full/jLpOxW/" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/weatherApp.png" alt=""></a>
+            <p><strong>Weather App</strong></p>
+            <a href="https://codepen.io/MWdub/full/jLpOxW/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MWdub/pen/jLpOxW" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
+            <p>The Weather App shows a users local weather conditions such as weather decription, wind speed,
+              and termerature in fahrenheit or celsius.  The Weather App operates from two API calls, one
+            to get the users approximate geolocation, and the other to get the corresponding weather information. The app
+          also dislays a background image contingent of the weather conditions.</p>
+        </div>
+
+        <hr>
+
+        <div class="gallery-object">
+          <a href="https://markwartman1.github.io/Wiki-Search/" target="_blank">
+            <img class="portfolio-image" src="portfolioImages/millenniumFalcon.png" alt=""></a>
+            <p><strong>Wikipedia Search</strong></p>
+            <a href="https://markwartman1.github.io/Wiki-Search/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
+            <a href="https://github.com/markwartman1/Wiki-Search" target="_blank"><i class="fa fa-github portfolio-link" aria-hidden="true"></i></a>
+            <p>Wikipedia Search Tool implemented by a JSON-encoded, Wikipedia API.
+              The API was used to generate Wikipedia information such as a title, link, and description of article
+              pertaining to the search query.</p>
+        </div>
+
+        <hr>
+
+      </div>
+      <!--******end gallery*********-->
+    </div>
+    <!--******end content-wrapper******-->
+  </section>
+  <section class="section_contact" id="contact">
+    <div class="content-wrapper">
+      <h3>Contact</h3>
+      <a href="mailto:markwartman1@gmail.com">
+        <i class="fa fa-envelope" aria-hidden="true">
+
+        </i>
+      </a>
+    </div>
+
+  </section>
+  <!-- </main> -->
+  <footer class="section_footer">
+    <div class="content-wrapper">
+      <a href="#top">
+        <i class="fa fa-chevron-up" aria-hidden="true">
+
+        </i>
+      </a>
+      <p>© 2017 Mark Wartman</p>
+      <p>View the <a href="#">GitHub repository</a> for this project.</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="portfolio.js">
+
+  </script>
+</body>
