@@ -1,45 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>portfolio</title>
-
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300|Yellowtail|Source+Sans+Pro:400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="portfolio.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MarkWartman</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header class="section_top" id="top">
-    <h1>Mark Wartman</h1>
-    <h2>Front End Developer</h2>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">MARK WARTMAN</a>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
     </nav>
-  </header>
-<!-- <main> -->
+
+  <section class="mt-5" id="home">
+    <div class="title-div">
+    <h1 class="text-center display-3">Mark Wartman</h1>
+    <h3 class="text-center">Front End Developer</h3>
+    <a href="#about" ><i class="fa fa-chevron-circle-down text-secondary" aria-hidden="true"></i></a>
+    </div>
+
+  </section>
+
   <!--******* about *******-->
-  <section class="section" id="about">
+  <!-- remove section -->
+  <section class="text-white" id="about">
     <div class="content-wrapper">
-      <h3>About Me</h3>
+
+      <h4><strong>About Me</strong></h4>
       <div class="clearfix">
-        <img src="portfolioImages/hShot280h.jpg" id="pic" alt="_picture of me">
-        <!-- https://i2.wp.com/codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png?ssl=1 -->
+        <img class="mb-4" src="../img/IMG_0577.jpg" id="pic" alt="_picture of me">
         <div class="aside">
-          <p><strong>Hello!</strong> I'm a self-taught developer located in Kingwood, TX.</p>
-          <p>I'm currently studying front end development through <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>, <a href="https://www.udemy.com" target="_blank">Udemy</a>, and various channels on YouTube. I am looking for employment as a developer.</p>
-          <p>Please take a look at my portfolio projects that I have completed in the process of aquiring
+          <p><strong>Hello!</strong> My name is Mark Wartman, and I am looking for employment as a Developer.  While I currently live in Kingwood, TX, I am willing to relocate for the right opportunity.</p>
+          <p>I'm currently studying front end development through <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>, <a href="https://www.udemy.com" target="_blank">Udemy</a>, and various channels on YouTube.</p>
+          <p>Please take a look at my portfolio projects that I have completed in the process of acquiring
             the front end developer certification at Free Code Camp.</p>
         </div>
-        <!--//end aside-->
       </div>
-      <!--//end clearfix-->
       <p>I'm currently working with:</p>
-      <!-- Resize these into png's -->
       <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/256px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="">
       <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/128px-Unofficial_JavaScript_logo_2.svg.png" alt="">
       <img class="language-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_jQuery.svg/256px-Logo_jQuery.svg.png" alt="">
@@ -51,24 +66,24 @@
     <!--****** Portfollio ******-->
   <section class="" id="portfolio">
     <div class="content-wrapper">
-      <h3>Portfolio</h3>
+      <h4><strong>Portfolio</strong></h4>
       <div class="gallery">
 
         <div class="gallery-object" id="bootstrapPortfolio">
           <a href="https://markwartman1.github.io/LoopLAB/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/bsClass_LoopLab.png" alt=""></a>
+            <img class="portfolio-image" src="../img/bsClass_LoopLab.png" alt=""></a>
           <a href="https://markwartman1.github.io/Mizuxe/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/bsClass_Mizuxe.png" alt=""></a>
+            <img class="portfolio-image" src="../img/bsClass_Mizuxe.png" alt=""></a>
           <a href="https://markwartman1.github.io/Blogen/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/bsClass_Blogen.png" alt=""></a>
+            <img class="portfolio-image" src="../img/bsClass_Blogen.png" alt=""></a>
           <a href="https://markwartman1.github.io/Glozzom/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/bsClass_Glozzom.png" alt=""></a>
-            <p><strong>Bootstrap 4 Beta - Udemy Course Projects</strong></p>
+            <img class="portfolio-image" src="../img/bsClass_Glozzom.png" alt=""></a>
+            <p class="pt-3"><strong>Bootstrap 4 Beta - Udemy Course Projects</strong></p>
             <a href="https://github.com/markwartman1"><i class="fa fa-github portfolio-link" aria-hidden="true"></i></a>
-            <p>Responsive design done in Bootstrap 4 Beta. These are course work projects completed at
+            <p>Responsive design done in Bootstrap 4 Beta. These are coursework projects completed at
               <a href="https://www.udemy.com" target="_blank">Udemy</a>.  The Udemy class is called
               <a href="https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/" target="_blank">Bootstrap 4</a>
-              From Scratch With 5 Projects by Brad Traversy, 12 year Full Stack Vetran Developer. Brad also runs
+              From Scratch With 5 Projects by Brad Traversy, 12 year Full Stack Veteran Developer. Brad also runs
               <a href="https://www.youtube.com/user/TechGuyWeb" target="_blank">Traversy Media</a>. Theses projects
               implement: smooth scrolling and accordion widget with jQuery plugin, grid system and new flexbox classes,
               carousel and slick slider, lightbox component for media gallery, modals, video, and CKEditor.</p>
@@ -79,8 +94,8 @@
 
         <div class="gallery-object">
           <a href="https://codepen.io/MWdub/pen/KyWrLV/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/pomodoroClock.jpg" alt=""></a>
-            <p><strong>Pomodoro Clock</strong></p>
+            <img class="portfolio-image" src="../img/pomodoroClock.jpg" alt=""></a>
+            <p class="pt-3"><strong>Pomodoro Clock</strong></p>
             <a href="https://codepen.io/MWdub/full/KyWrLV/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://codepen.io/MWdub/pen/KyWrLV/" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
             <p>The Pomodoro Clock is a time management application showcasing "iterative and incremental
@@ -91,8 +106,8 @@
 
         <div class="gallery-object">
           <a href="https://codepen.io/MWdub/full/KXermZ/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/quoteGenerator.jpg" alt=""></a>
-            <p><strong>Quote Generator</strong></p>
+            <img class="portfolio-image" src="../img/quoteGenerator.jpg" alt=""></a>
+            <p class="pt-3"><strong>Quote Generator</strong></p>
             <a href="https://codepen.io/MWdub/full/KXermZ/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://codepen.io/MWdub/pen/KXermZ/" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
             <p>A random quote generator using a JSON-encoded, third-party API.
@@ -104,28 +119,28 @@
 
         <div class="gallery-object">
           <a href="https://codepen.io/MWdub/full/VMLKXM/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/twitchTv.jpg" alt=""></a>
-            <p><strong>TwitchTV Status Viewer</strong></p>
+            <img class="portfolio-image" src="../img/twitchTv.jpg" alt=""></a>
+            <p class="pt-3"><strong>TwitchTV Status Viewer</strong></p>
             <a href="https://codepen.io/MWdub/full/VMLKXM/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://codepen.io/MWdub/pen/VMLKXM/" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
             <p>Twitch tv status viewer implemented by a JSON-encoded, Twitch API.
               The API was used to generate a channel logo, channel name, and streaming status that
               included a description if the channel was streaming. My solution to
-             this project was an iterative, multi-API call to input data which was ouput by embedding
-            html code within jQuery.</p>
+             this project was an iterative, multi-API call to input data which was output by embedding
+            HTML code within jQuery.</p>
         </div>
 
         <hr>
 
         <div class="gallery-object">
           <a href="https://codepen.io/MWdub/pen/NaObEV" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/simpleCalculator.png" alt=""></a>
-            <p><strong>Simple Calculator</strong></p>
+            <img class="portfolio-image" src="../img/simpleCalculator.png" alt=""></a>
+            <p class="pt-3"><strong>Simple Calculator</strong></p>
             <a href="https://codepen.io/MWdub/full/NaObEV/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://codepen.io/MWdub/pen/NaObEV" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
             <p>Building The Simple Calculator was an exercise of logic done in jQuery. The
             calculator operates on immediate execution methodology, where chaining expression are
-          evaluated upon designation of second operator. Program code could be considerd verbosely commented; however,
+          evaluated upon designation of the second operator. The program code could be considered verbosely commented; however,
         I wanted to display documenting skill and communication ability.</p>
         </div>
 
@@ -133,26 +148,26 @@
 
         <div class="gallery-object">
           <a href="https://codepen.io/MWdub/full/jLpOxW/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/weatherApp.jpg" alt=""></a>
-            <p><strong>Weather App</strong></p>
+            <img class="portfolio-image" src="../img/weatherApp.jpg" alt=""></a>
+            <p class="pt-3"><strong>Weather App</strong></p>
             <a href="https://codepen.io/MWdub/full/jLpOxW/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://codepen.io/MWdub/pen/jLpOxW" target="_blank"><i class="fa fa-codepen portfolio-link" aria-hidden="true"></i></a>
-            <p>The Weather App shows a users local weather condition such as weather decription, wind speed,
-              and termerature in fahrenheit or celsius.  The Weather App operates from two API calls, one
+            <p>The Weather App shows a users local weather condition such as weather description, wind speed,
+              and temperature in fahrenheit or celsius.  The Weather App operates from two API calls, one
             to get the users approximate geolocation and the other to get the corresponding weather information. The app
-          also dislays a background image contingent of the weather conditions.</p>
+          also displays a background image contingent of the weather conditions.</p>
         </div>
 
         <hr>
 
         <div class="gallery-object">
           <a href="https://markwartman1.github.io/Wiki-Search/" target="_blank">
-            <img class="portfolio-image" src="portfolioImages/WikiSearch.jpg" alt=""></a>
-            <p><strong>Wikipedia Search</strong></p>
+            <img class="portfolio-image" src="../img/WikiSearch.jpg" alt=""></a>
+            <p class="pt-3"><strong>Wikipedia Search</strong></p>
             <a href="https://markwartman1.github.io/Wiki-Search/" target="_blank"><i class="fa fa-external-link portfolio-link" aria-hidden="true"></i></a>
             <a href="https://github.com/markwartman1/Wiki-Search" target="_blank"><i class="fa fa-github portfolio-link" aria-hidden="true"></i></a>
             <p>Wikipedia Search Tool implemented by a JSON-encoded, Wikipedia API.
-              The API was used to generate Wikipedia information such as a title, link, and description of article
+              The API was used to generate Wikipedia information such as a title, link, and description of an article
               pertaining to the search query.</p>
         </div>
 
@@ -163,9 +178,12 @@
     </div>
     <!--******end content-wrapper******-->
   </section>
-  <section class="section_contact" id="contact">
+
+  <!-- <hr style="margin:0;"> -->
+
+  <section class="section_contact bg-white" id="contact">
     <div class="content-wrapper">
-      <h3>Contact</h3>
+      <h4><strong>Contact</strong></h4>
       <a href="https://www.linkedin.com/in/mark-wartman/" target="_blank">
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
       </a>
@@ -178,7 +196,7 @@
       <a href="https://www.freecodecamp.org/markwartman1" target="_blank">
         <i class="fa fa-free-code-camp" aria-hidden="true"></i>
       </a>
-      <p>View my <a href="https://drive.google.com/file/d/0B7tvvkp6PI1Ba09hWnJpSDV1SGM/view" target="_blank">Résumé</a></p>
+      <p>View my <a href="https://drive.google.com/file/d/0B7tvvkp6PI1Ba09hWnJpSDV1SGM/view" target="_blank">Resume</a></p>
     </div>
 
   </section>
@@ -186,7 +204,7 @@
   <footer class="section_footer">
     <div class="content-wrapper">
       <a href="#top">
-        <i class="fa fa-chevron-up" aria-hidden="true">
+        <i class="fa fa-chevron-up pb-5" aria-hidden="true">
 
         </i>
       </a>
@@ -194,8 +212,11 @@
       <p>View the <a href="https://github.com/markwartman1/portfolio" target="_blank">GitHub repository</a> for this project.</p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
-  <script type="text/javascript" src="portfolio.js">
 
-  </script>
+  <script src="js/jquery.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
+  <!-- Path to Popper - it is for dropsdowns etc in bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+</html>

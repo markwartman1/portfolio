@@ -1,38 +1,81 @@
+
+
+#home{
+  background:url('../img/neven-krcmarek-193468.jpg');
+  min-height: 1120px;
+  padding-top: 70px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+    .title-div{
+      width: 100%;
+      position: fixed;
+      left: 50%;
+      margin-left: -50%;
+
+      .fa-chevron-circle-down{
+        margin-top: 400px;
+      }
+    }
+}
+
+//adjust for bootstrap nav expand
+@media (max-width:575px) {
+  #home{
+    padding-top: 260px;
+    .title-div{
+      color:white;
+
+      .fa-chevron-circle-down{
+        margin-top: 0px;
+      }
+    }
+  }
+  #about, #portfolio, #contact{
+    padding-top: 135px;
+
+    h4 {
+      padding: .8em 0;
+    }
+  }
+}
+
+
+
+#about{
+  padding-top: 150px;
+  min-height: 1120px;
+  // nicole-mason-19744.jpg
+  background: url('../img/overlay.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio{
+  padding-top: 150px;
+}
+
+//hides fixed position title
+#about, #portfolio, #contact, .section_footer {
+  position: relative;
+  z-index: 1;
+}
+
+
+//added in
+
 body {
   text-align: center;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-.section_top {
-  padding: 2em 0;
-  background-color: #FF5200;
-  color: #262626;
+ul{
+  font-size: 1.1em;
 }
 
-h1 {
-  font-size: 3em;
-  font-family: 'Yellowtail', cursive;
-}
-
-h2 {
-  font-size: 1.7em;
-  font-family: 'Lato', sans-serif;
-}
-
-ul {
-
-  font-family: "Lato", sans-serif;
-  font-size: 1.2em;
-  padding-left: 0;/*override native*/
-}
-
-li {
-
-  display: inline;
-  padding: 0 1em;
-}
 
 .content-wrapper {
   margin: 0 auto;
@@ -42,14 +85,15 @@ li {
 }
 
 #pic {
-  max-width: 200px;
-  border-radius: 3em;
-  height: 280px;
+  max-width: 400px;
+  width:100%;
+  // border-radius:.4em;
+  height: 300px;
 /*   float: right; */
 }
 
-h3 {
-  font-size: 1.5em;
+h4 {
+  padding: 2.5em 0;
 }
 
 p {
@@ -58,6 +102,11 @@ p {
 
 hr {
   margin-bottom: 2.5em;
+  border: none;
+  height: 6px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
 }
 
 .language-logo {
@@ -93,7 +142,7 @@ a:hover {
 
 .fa {
     font-size: 2em;
-    padding: 0 .5em;
+    padding: 0 .5em .5em .5em;
      color: #333;
      -webkit-transition-duration: .5s;
      -moz-transition-duration: .5s;
@@ -154,6 +203,7 @@ a:hover {
   #pic {
 /*     width: 30%; */
     float: right;
+    padding-left: 18px;
   }
 
   /**********
