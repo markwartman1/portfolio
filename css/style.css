@@ -1,7 +1,12 @@
 #home {
   background: url("../img/neven-krcmarek-193468.jpg");
-  min-height: 1120px;
+  min-height: 1300px;
   padding-top: 70px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -28,7 +33,7 @@
 
 #about {
   padding-top: 150px;
-  min-height: 1120px;
+  min-height: 1300px;
   background: url("../img/overlay.png");
   background-size: cover;
   background-position: center; }
