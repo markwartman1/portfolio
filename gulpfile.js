@@ -18,14 +18,14 @@ gulp.task('js', function(){
 });
 
 // Watch Sass & Server
-gulp.task('serve', ['sass'], function(){
+gulp.task('serve', gulp.series(['sass'], function(){
   browserSync.init({
     server: "./src"
   });
 
   gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
   gulp.watch("src/*.html").on('change', browserSync.reload);
-});
+}));
 
 // Move Fonts Folder to src/fonts
 gulp.task('fonts', function(){
@@ -39,4 +39,4 @@ gulp.task('fa', function(){
   .pipe(gulp.dest("src/css"));
 });
 
-gulp.task('default', ['js', 'serve', 'fa', 'fonts']);
+gulp.task('default', gulp.series(['js', 'fa', 'fonts', 'serve']));
