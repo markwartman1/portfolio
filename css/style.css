@@ -1,12 +1,10 @@
 #home {
   background: url("../img/neven-krcmarek-193468.jpg");
-  min-height: 1300px;
+  min-height: 1200px;
   padding-top: 70px;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -21,11 +19,11 @@
 
 @media (max-width: 575px) {
   #home {
-    padding-top: 260px; }
-    #home .title-div {
-      color: white; }
-      #home .title-div .fa-chevron-circle-down {
-        margin-top: 0px; }
+    padding-top: 100px;
+    background-attachment: scroll; }
+    #home .title-div .fa-chevron-circle-down {
+      color: #00FF00;
+      margin-top: 0px; }
   #about, #portfolio, #contact {
     padding-top: 135px; }
     #about h4, #portfolio h4, #contact h4 {
@@ -33,7 +31,7 @@
 
 #about {
   padding-top: 150px;
-  min-height: 1300px;
+  min-height: 1200px;
   background: url("../img/overlay.png");
   background-size: cover;
   background-position: center; }
